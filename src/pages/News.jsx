@@ -1,14 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { newsArticles, categories } from '../data/newsData'
+import { newsArticles } from '../data/newsData'
 
 const News = () => {
-  const [selectedCategory, setSelectedCategory] = React.useState("Semua")
-
-  const filteredArticles = selectedCategory === "Semua" 
-    ? newsArticles 
-    : newsArticles.filter(article => article.category === selectedCategory)
-
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -26,32 +20,20 @@ const News = () => {
         </div>
       </div>
 
-      {/* Category Filter */}
-      <section className="py-8 bg-gray-50">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <div className="flex flex-wrap justify-center gap-2">
-            {categories.map(category => (
-              <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-                className={`px-4 py-2 rounded-full text-sm transition-colors ${
-                  selectedCategory === category
-                    ? 'bg-green-600 text-white'
-                    : 'bg-white text-gray-600 hover:bg-gray-100'
-                }`}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* News Articles */}
+      {/* News Articles - Menampilkan semua 4 berita */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-6xl">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredArticles.map(article => (
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-light text-gray-900 mb-4">
+              Semua Berita
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Kumpulan berita dan informasi terkini dari Desa Kamal
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {newsArticles.map(article => (
               <article key={article.id} className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="text-center mb-6">
                   <div className="text-4xl mb-3">{article.icon}</div>

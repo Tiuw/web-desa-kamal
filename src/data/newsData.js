@@ -73,58 +73,6 @@ Program ini merupakan kerjasama antara Pemerintah Desa Kamal dengan Dinas Kopera
   },
   {
     id: 4,
-    title: "Penemuan Artefak Baru di Situs Kendal",
-    date: "8 Juli 2025",
-    category: "Sejarah",
-    excerpt: "Tim arkeologi menemukan beberapa artefak megalitikum baru yang memperkaya koleksi situs bersejarah Desa Kamal.",
-    content: `Penemuan ini meliputi fragmen batu kenong dan beberapa alat batu yang diperkirakan berusia ribuan tahun. Temuan ini semakin memperkuat posisi Desa Kamal sebagai situs megalitikum penting di Jawa Timur.
-
-Detail penemuan artefak:
-
-• 3 fragmen batu kenong dalam kondisi baik
-• 7 alat batu (kapak genggam dan serut)
-• 2 pecahan tembikar dengan motif geometris
-• 1 menhir kecil setinggi 80 cm
-
-Tim arkeologi dari Universitas Jember yang dipimpin oleh Dr. Sari Wulandari menyatakan bahwa temuan ini menunjukkan aktivitas manusia prasejarah yang intensif di kawasan ini. Berdasarkan analisis awal, artefak diperkirakan berasal dari periode 1500-2000 SM.
-
-"Penemuan ini sangat penting untuk memahami perkembangan budaya megalitikum di Jawa Timur. Situs Kendal menunjukkan kontinuitas budaya yang panjang," ungkap Dr. Sari.
-
-Balai Pelestarian Cagar Budaya Jawa Timur akan segera melakukan penelitian lanjutan dan konservasi terhadap artefak yang ditemukan.`,
-    icon: "🏛️",
-    author: "Tim Arkeologi UNEJ",
-    readTime: "4 menit"
-  },
-  {
-    id: 5,
-    title: "Program Stunting Desa Berhasil",
-    date: "5 Juli 2025",
-    category: "Kesehatan",
-    excerpt: "Angka stunting di Desa Kamal berhasil diturunkan melalui program gizi yang komprehensif dan berkelanjutan.",
-    content: `Berkat kerjasama dengan Puskesmas dan aktifnya posyandu desa, angka stunting berhasil diturunkan dari 15% menjadi 8% dalam setahun terakhir. Program ini melibatkan edukasi gizi dan pemberian makanan tambahan.
-
-Program yang dilaksanakan:
-
-• Posyandu aktif di 4 titik desa
-• Program makanan tambahan untuk balita
-• Edukasi gizi untuk ibu hamil dan menyusui
-• Monitoring tumbuh kembang anak rutin
-• Pemberian vitamin dan suplemen gizi
-
-Hasil yang dicapai:
-
-• Penurunan stunting dari 15% menjadi 8%
-• 95% balita mendapat imunisasi lengkap
-• 100% ibu hamil terpantau kesehatannya
-• Peningkatan pengetahuan gizi masyarakat
-
-Kepala Puskesmas Arjasa, dr. Ahmad Fauzi, menyatakan bahwa keberhasilan ini tidak lepas dari partisipasi aktif masyarakat dan kader posyandu. Program ini akan terus dilanjutkan dengan target penurunan stunting menjadi 5% pada tahun depan.`,
-    icon: "🏥",
-    author: "Puskesmas Arjasa",
-    readTime: "3 menit"
-  },
-  {
-    id: 6,
     title: "Kopi Robusta Kamal Raih Sertifikat Organik",
     date: "3 Juli 2025",
     category: "Pertanian",
@@ -152,5 +100,3 @@ Ketua Kelompok Tani Kopi Kamal, Bapak Suwardi, menyatakan bahwa dengan sertifika
     readTime: "3 menit"
   }
 ]
-
-export const categories = ["Semua", "Budaya", "Infrastruktur", "Ekonomi", "Sejarah", "Kesehatan", "Pertanian"]
