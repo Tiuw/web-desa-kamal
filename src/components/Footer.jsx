@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -32,10 +33,11 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Tautan Cepat</h4>
             <ul className="space-y-2">
-              <li><a href="/" className="text-gray-300 hover:text-white">Beranda</a></li>
-              <li><a href="/profile" className="text-gray-300 hover:text-white">Profil Desa</a></li>
-              <li><a href="/news" className="text-gray-300 hover:text-white">Berita</a></li>
-              <li><a href="/destination" className="text-gray-300 hover:text-white">Wisata</a></li>
+              <li><Link to="/" className="text-gray-300 hover:text-white">Beranda</Link></li>
+              <li><Link to="/profile" className="text-gray-300 hover:text-white">Profil Desa</Link></li>
+              <li><Link to="/news" className="text-gray-300 hover:text-white">Berita</Link></li>
+              <li><Link to="/destination" className="text-gray-300 hover:text-white">Wisata</Link></li>
+              <li><Link to="/infografis" className="text-gray-300 hover:text-white">Infografis</Link></li>
             </ul>
           </div>
 
@@ -44,7 +46,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Kontak</h4>
             <div className="space-y-2 text-gray-300">
               <p>📍 Jl. Desa Kamal No. 123</p>
-              <p>📞 (021) 123-4567</p>
+              <p>📞 (0331) 123-4567</p>
               <p>✉️ info@desakamal.id</p>
               <p>🕐 Sen-Jum: 08:00-16:00</p>
             </div>
